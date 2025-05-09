@@ -155,6 +155,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(298, 31);
             this.textBox1.TabIndex = 1;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // label2
             // 
@@ -199,6 +200,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(298, 31);
             this.textBox2.TabIndex = 6;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
@@ -206,6 +208,7 @@
             this.textBox3.Name = "textBox3";
             this.textBox3.Size = new System.Drawing.Size(298, 31);
             this.textBox3.TabIndex = 7;
+            this.textBox3.TextChanged += new System.EventHandler(this.textBox3_TextChanged);
             // 
             // textBox4
             // 
@@ -213,6 +216,7 @@
             this.textBox4.Name = "textBox4";
             this.textBox4.Size = new System.Drawing.Size(246, 31);
             this.textBox4.TabIndex = 8;
+            this.textBox4.TextChanged += new System.EventHandler(this.textBox4_TextChanged);
             // 
             // textBox5
             // 
@@ -220,6 +224,7 @@
             this.textBox5.Name = "textBox5";
             this.textBox5.Size = new System.Drawing.Size(298, 31);
             this.textBox5.TabIndex = 9;
+            this.textBox5.TextChanged += new System.EventHandler(this.textBox5_TextChanged);
             // 
             // button1
             // 
@@ -229,6 +234,7 @@
             this.button1.TabIndex = 10;
             this.button1.Text = "Registrar Contribuyente";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // groupBox2
             // 
@@ -258,6 +264,7 @@
             this.textBox6.Name = "textBox6";
             this.textBox6.Size = new System.Drawing.Size(381, 31);
             this.textBox6.TabIndex = 1;
+            this.textBox6.TextChanged += new System.EventHandler(this.textBox6_TextChanged);
             // 
             // groupBox3
             // 
@@ -278,6 +285,7 @@
             this.groupBox3.TabIndex = 1;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Información Contribuyente";
+            this.groupBox3.Enter += new System.EventHandler(this.groupBox3_Enter);
             // 
             // label7
             // 
@@ -290,10 +298,12 @@
             // 
             // textBox7
             // 
+            this.textBox7.Enabled = false;
             this.textBox7.Location = new System.Drawing.Point(138, 73);
             this.textBox7.Name = "textBox7";
             this.textBox7.Size = new System.Drawing.Size(284, 31);
             this.textBox7.TabIndex = 1;
+            this.textBox7.TextChanged += new System.EventHandler(this.textBox7_TextChanged);
             // 
             // button2
             // 
@@ -303,6 +313,7 @@
             this.button2.TabIndex = 2;
             this.button2.Text = "Buscar";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // label8
             // 
@@ -346,6 +357,7 @@
             this.textBox8.Name = "textBox8";
             this.textBox8.Size = new System.Drawing.Size(253, 31);
             this.textBox8.TabIndex = 6;
+            this.textBox8.TextChanged += new System.EventHandler(this.textBox8_TextChanged);
             // 
             // textBox9
             // 
@@ -353,6 +365,7 @@
             this.textBox9.Name = "textBox9";
             this.textBox9.Size = new System.Drawing.Size(253, 31);
             this.textBox9.TabIndex = 7;
+            this.textBox9.TextChanged += new System.EventHandler(this.textBox9_TextChanged);
             // 
             // textBox10
             // 
@@ -360,6 +373,7 @@
             this.textBox10.Name = "textBox10";
             this.textBox10.Size = new System.Drawing.Size(198, 31);
             this.textBox10.TabIndex = 8;
+            this.textBox10.TextChanged += new System.EventHandler(this.textBox10_TextChanged);
             // 
             // textBox11
             // 
@@ -367,6 +381,7 @@
             this.textBox11.Name = "textBox11";
             this.textBox11.Size = new System.Drawing.Size(246, 31);
             this.textBox11.TabIndex = 9;
+            this.textBox11.TextChanged += new System.EventHandler(this.textBox11_TextChanged);
             // 
             // button3
             // 
@@ -376,6 +391,7 @@
             this.button3.TabIndex = 10;
             this.button3.Text = "Actualizar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -385,6 +401,7 @@
             this.button4.TabIndex = 2;
             this.button4.Text = "Eliminar Contribuyente";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // dataGridContribuyentes
             // 
