@@ -47,7 +47,7 @@
             this.salirToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
-            this.menuStrip1.Size = new System.Drawing.Size(800, 42);
+            this.menuStrip1.Size = new System.Drawing.Size(800, 48);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -71,14 +71,14 @@
             this.vehículosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.listarVehículosToolStripMenuItem});
             this.vehículosToolStripMenuItem.Name = "vehículosToolStripMenuItem";
-            this.vehículosToolStripMenuItem.Size = new System.Drawing.Size(135, 38);
+            this.vehículosToolStripMenuItem.Size = new System.Drawing.Size(135, 40);
             this.vehículosToolStripMenuItem.Text = "Vehículos";
             // 
             // listarVehículosToolStripMenuItem
             // 
             this.listarVehículosToolStripMenuItem.Name = "listarVehículosToolStripMenuItem";
             this.listarVehículosToolStripMenuItem.Size = new System.Drawing.Size(359, 44);
-            this.listarVehículosToolStripMenuItem.Text = "Listar Vehículos";
+            this.listarVehículosToolStripMenuItem.Text = "Gestionar Vehículos";
             this.listarVehículosToolStripMenuItem.Click += new System.EventHandler(this.listarVehículosToolStripMenuItem_Click);
             // 
             // salirToolStripMenuItem

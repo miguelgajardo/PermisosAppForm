@@ -11,7 +11,6 @@ namespace PermisosAppForm.Modelo
         public string patente { get; set; }
         public string marca { get; set; }
         public string modelo { get; set; }
-
         public string anio { get; set; }
 
         public Contribuyente contribuyente { get; set; }
